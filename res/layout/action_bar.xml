@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.myactionbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp" >
+
+    <com.example.myactionbar.widget.CircleFlowIndicator
+        android:id="@+id/viewflowindic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        app:activeColor="#FFFFFF"
+        app:activeType="fill"
+        app:fadeOut="0"
+        app:inactiveColor="#80000000"
+        app:inactiveType="fill"
+        app:radius="5dp" />
+
+</RelativeLayout>
